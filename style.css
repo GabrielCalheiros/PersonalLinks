@@ -1,0 +1,28 @@
+.icon{
+    width: 7vw;
+    filter: invert(100%);
+    transition: 0.5s;
+    margin: 1vw;
+
+}
+
+body{
+    background-color: black;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    color: white;
+}
+
+.icon:hover{
+    transform: scale(1.1);
+}
+
+h1{
+    margin-top: 5vh;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
