@@ -1,7 +1,7 @@
 .icon{
     width: 7vw;
     filter: invert(100%);
-    transition: 0.5s;
+    transition: 0.7s;
     margin: 1vw;
 
 }
@@ -13,7 +13,20 @@ body{
     margin: auto;
     color: white;
 }
+.paragon{
+    color: white;
+    border: 0ch;
+    font-weight: bold;
+    font-size: larger;
+    transition: 0.7s;
+    height: 4vh;
+    max-width: 30vw;
+    display: inline-block;
+}
 
+.paragon:hover{
+    transform: scale(1.1);
+}
 .icon:hover{
     transform: scale(1.1);
 }
