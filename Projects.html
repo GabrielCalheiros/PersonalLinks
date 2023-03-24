@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/jpg" href="./images/favicon.svg" />
+    <title>Projects</title>
+    <style>
+        h1 {
+            font-size: xxx-large;
+            text-align: center;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            color: white;
+            text-align: left;
+            width: 60%;
+            margin: auto;
+        }
+
+        .centered {
+            width: 80%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .project {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+            gap: 0px 0px;
+            grid-auto-flow: row;
+            grid-template-areas:
+                "project_image project_description";
+            transition: 0.7s;
+            margin-top: 50px;
+
+        }
+
+        .project_image {
+            grid-area: project_image;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .project_description {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 0.7fr 0.7fr 1.9fr 0.7fr;
+            gap: 0px 0px;
+            grid-auto-flow: row;
+            grid-template-areas:
+                "tech_icons"
+                "title"
+                "description"
+                "source_link";
+            grid-area: project_description;
+        }
+
+        .tech_icons {
+            grid-area: tech_icons;
+        }
+
+        .title {
+            grid-area: title;
+            font-size: x-large;
+        }
+
+        .description {
+            grid-area: description;
+        }
+
+        .source_link {
+            grid-area: source_link;
+        }
+
+        button {
+            width: -webkit-fill-available;
+            height: 50px;
+            font-size: larger;
+            margin-top: 25px;
+            transition: 0.3s;
+            margin-left: 10px;
+            margin-right: 10px;
+            border: solid;
+            border-color: white !important;
+            background-color: black;
+            color: white;
+            border-radius: 5px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .project:hover {
+            transform: scale(1.1);
+        }
+
+        button:hover {
+            transform: scale(1.03);
+        }
+
+        .buttons_trio {
+            margin-bottom: 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1.6fr;
+            gap: 0px 0px;
+            grid-auto-flow: row;
+            grid-template-areas:
+                "curriculum personal-links github";
+        }
+
+        .curriculum {
+            grid-area: curriculum;
+        }
+
+        .personal-links {
+            grid-area: personal-links;
+        }
+
+        .github {
+            grid-area: github;
+        }
+
+        @media only screen and (max-width: 600px) {
+            body {
+                text-align: left;
+                width: 100%;
+                margin: revert;
+            }
+
+            .centered {
+                width: 100%;
+                box-sizing: inherit;
+            }
+
+            .project {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1.6fr 1.4fr;
+                gap: 0px 0px;
+                grid-auto-flow: row;
+                grid-template-areas:
+                    "project_image"
+                    "project_description";
+                margin-top: 0px;
+
+            }
+
+            .project_image {
+                grid-area: project_image;
+            }
+
+            .project_description {
+                grid-area: project_description;
+            }
+
+            .project_image img {
+                width: 100% !important;
+                margin-bottom: 5px;
+            }
+
+            h1 {
+                font-size: xx-large;
+                text-align: center;
+            }
+
+            button {
+                width: 45%;
+            }
+
+            .buttons_trio {
+                text-align: center;
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr 1fr;
+                grid-auto-columns: 1fr;
+                gap: 0px 0px;
+                grid-auto-flow: row;
+                grid-template-areas:
+                    "curriculum"
+                    "personal-links"
+                    "github";
+            }
+
+            .curriculum {
+                grid-area: curriculum;
+            }
+
+            .personal-links {
+                grid-area: personal-links;
+            }
+
+            .github {
+                grid-area: github;
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- FORNECCONTROL -->
+    <div class="centered">
+
+        <h1>Personal Projects</h1>
+
+        <a href="https://github.com/GabrielCalheiros/FornecControl" target="_blank">
+            <div class="project">
+                <div class="project_image"><img src="./images/Projects_FornecControl.png" style="width: 80%;"></div>
+                <div class="project_description">
+                    <div class="tech_icons">
+                        <img src="./images/laravel.svg" style="height: 25px;">
+                        <img src="./images/php.svg" style="height: 25px;">
+                        <img src="./images/cdnlogo.com_adminlte.svg" style="height: 25px;">
+
+                    </div>
+                    <div class="title">FornecControl</div>
+                    <div class="description">This project aims to assist users in creating and managing a comprehensive
+                        list
+                        of suppliers for a specific company. Through this tool, users can easily add, view, and edit
+                        supplier information, including details such as contact information, addresses, and other
+                        pertinent
+                        data.</div>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="http://paragonsoftware.solutions/" target="_blank">
+            <div class="project">
+                <div class="project_image"><img src="./images/Projects_ParagonSoftware.png" style="width: 80%;"></div>
+                <div class="project_description">
+                    <div class="tech_icons">
+                        <img src="./images/html.svg" style="height: 25px;">
+                        <img src="./images/inkcapeLogo.svg" style="height: 25px;">
+                        <img src="./images/gimp.svg" style="height: 25px; filter: invert(1);">
+
+                    </div>
+                    <div class="title">ParagonSoftware</div>
+                    <div class="description">I spearheaded the development of the company's visual identity, taking
+                        charge of the entire process from designing the logo in vector format to crafting the landing
+                        page. Moreover, I tackled some critical internal tech challenges, including setting up the site
+                        publishing, email server, and other basic requirements, resolving them effectively.
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://github.com/GabrielCalheiros/Generic_RPG_System" target="_blank">
+            <div class="project">
+                <div class="project_image"><img src="./images/Projects_Eidos.png" style="width: 80%;"></div>
+                <div class="project_description">
+                    <div class="tech_icons">
+                        <img src="./images/html.svg" style="height: 25px;">
+                        <img src="./images/css.svg" style="height: 25px; filter: invert(1);">
+                        <img src="./images/php.svg" style="height: 25px;">
+                        <img src="./images/javascript.svg" style="height: 25px;">
+
+
+                    </div>
+                    <div class="title">Eidos</div>
+                    <div class="description">I collaborated with a friend on a project to create our own RPG system,
+                        which we licensed under GPLv3. We created a user-friendly PHP website that explained the rules
+                        of the game and included tools for the dungeon master to use.
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://gabrielcalheiros.github.io/Stable-Diffusion-Studies/" target="_blank">
+            <div class="project">
+                <div class="project_image"><img src="./images/Projects_StableDiffusion.png" style="width: 80%;"></div>
+                <div class="project_description">
+                    <div class="tech_icons">
+                        <img src="./images/stable.svg" style="height: 25px;">
+                        <img src="./images/html.svg" style="height: 25px;">
+
+                    </div>
+                    <div class="title">img2img Studies</div>
+                    <div class="description">The results of my studies with Stable Diffusion with img2img generation
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://gabrielcalheiros.github.io/Stable-Diffusion-Studies/" target="_blank">
+            <div class="project">
+                <div class="project_image"><img src="./images/Projects_Bash.png" style="width: 80%;"></div>
+                <div class="project_description">
+                    <div class="tech_icons">
+                        <img src="./images/bash.svg" style="height: 25px;">
+
+                    </div>
+                    <div class="title">Manjaro Scripts</div>
+                    <div class="description">This is a set of configuration files and shell scripts I created for my
+                        Manjaro Cinnamon
+                        desktop, which includes font installations, wallpapers, OPMLs, and other settings. These files
+                        help me to easily replicate my preferred desktop environment across multiple machines.
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://github.com/GabrielCalheiros/Kodi-Skin-Amber-Personal-config" target="_blank">
+            <div class="project">
+                <div class="project_image"><img src="./images/Projects_Kodi_Skin.png" style="width: 80%;"></div>
+                <div class="project_description">
+                    <div class="tech_icons">
+                        <img src="./images/kodi.svg" style="height: 25px;">
+
+                    </div>
+                    <div class="title">Kodi Personal Skin</div>
+                    <div class="description">This is a personal configuration of the Amber skin for Kodi, including
+                        custom fonts and backgrounds. It has been tailored to suit my preferences and needs.
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </a>
+
+
+        <a href="https://gabrielcalheiros.github.io/Personal_Notebook/home_pt.html" target="_blank">
+            <div class="project">
+                <div class="project_image"><img src="./images/Projects_Personal Notebook.png" style="width: 80%;"></div>
+                <div class="project_description">
+                    <div class="tech_icons">
+                        <img src="./images/html.svg" style="height: 25px;">
+                        <img src="./images/rss.svg" style="height: 25px;">
+                        <img src="./images/opml.svg" style="height: 25px; filter: invert(1);">
+
+                    </div>
+                    <div class="title">Personal Notebook</div>
+                    <div class="description">A personal notebook where I keep track of everything from links and
+                        workouts to opmls, all created using simple HTML and CSS.
+                    </div>
+                </div>
+            </div>
+        </a>
+        <style>
+
+        </style>
+
+        <div class="buttons_trio">
+            <div class="curriculum"><a href="./CurriculumVitaeENG.html" target="_blank"><button>Curriculum Vitae</button></a></div>
+            <div class="personal-links"><a href="./index.html" target="_blank"><button>Personal Links</button></a></div>
+            <div class="github"><a href="https://github.com/GabrielCalheiros?tab=repositories" target="_blank"><button>All GitHub
+                        Repositories</button></a></div>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>

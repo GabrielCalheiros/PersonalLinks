@@ -8,10 +8,10 @@
 
 body{
     background-color: black;
+    color: white;
     text-align: center;
     width: 60%;
     margin: auto;
-    color: white;
 }
 .paragon{
     color: white;
@@ -19,7 +19,7 @@ body{
     font-weight: bold;
     font-size: larger;
     transition: 0.7s;
-    height: 4vh;
+    height: 2vh;
     max-width: 30vw;
     display: inline-block;
 }
