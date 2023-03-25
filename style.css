@@ -3,7 +3,6 @@
     filter: invert(100%);
     transition: 0.7s;
     margin: 1vw;
-
 }
 
 body{
@@ -39,3 +38,31 @@ a{
     color: white;
     text-decoration: none;
 }
+
+.other {
+    background-color: black;
+    color: white;
+    border: solid;
+    height: 5%;
+    margin-bottom: 20px;
+    width: 40%;
+    font-weight: bolder;
+    transition: 1s;
+}
+.other:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 1150px) {
+    body{
+        width: 100%;
+    }
+    .icon{
+    width: 20vw;
+    }
+    
+    .other {
+    font-size: xx-large;
+    width: 50%;
+    }
+    }
