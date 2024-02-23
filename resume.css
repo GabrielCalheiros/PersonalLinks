@@ -32,6 +32,9 @@ body{
   #languageSelector {
       display: none;
   }
+  .noPrint {
+    display: none;
+  }
 }
 
 .row {
