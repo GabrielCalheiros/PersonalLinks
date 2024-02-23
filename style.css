@@ -1,7 +1,7 @@
 .icon{
     width: 7vw;
     filter: invert(100%);
-    transition: 0.7s;
+    transition: 0.3s;
     margin: 1vw;
 }
 body{
@@ -16,7 +16,7 @@ body{
     border: 0ch;
     font-weight: bold;
     font-size: larger;
-    transition: 0.7s;
+    transition: 0.3s;
     height: 2vh;
     max-width: 30vw;
     display: inline-block;
@@ -39,14 +39,14 @@ a{
 }
 
 .other {
-    background-color: black;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     border: solid;
     height: 5%;
     margin-bottom: 20px;
     width: 40%;
     font-weight: bolder;
-    transition: 1s;
+    transition: 0.3s;
 }
 .other:hover{
     transform: scale(1.1);
