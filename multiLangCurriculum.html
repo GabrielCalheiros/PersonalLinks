@@ -1,0 +1,171 @@
+<!doctype html> <!-- HTML5 -->
+<html>
+
+    <head>
+        <!-- Set character encoding for the document -->
+        <meta charset="utf-8">
+        <!-- Viewport for responsive web design -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+        <!-- Title of the document -->
+        <title>Gabriel Calheiros - Curriculum Vitae</title>
+        <!-- Meta Description -->
+        <meta name="description" content="Description of the page less than 150 characters">
+        <!-- Standard favicon -->
+        <link rel="shortcut icon" type="image/jpg" href="./images/favicon.svg" />
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="./resume.css">
+
+    </head>
+
+
+    <body>
+        <!-- Language Selector -->
+        <select id="languageSelector" onchange="changeLanguage(this.value)">
+            <option value="en">English</option>
+            <option value="pt">Português</option>
+        </select>
+    
+        <div id="pageContent">
+
+            
+            <!-- Barra Lateral -->
+            <div class="barra_lateral">
+
+                <hr>
+                <img src="./images/pic.jpg" class="profile_image">
+                <hr>
+                <h3 id="social">Social</h3>
+
+                <div class="bloco">
+                    <div class="row"><img src="./images/github.svg" class="social_icon">/GabrielCalheiros</div>
+                    <div class="row"><img src="./images/linkedin.svg" class="social_icon">/gabriel-braga-calheiros</div>
+                    <div class="row"><img src="./images/instagram.svg" class="social_icon">/calheiros.gabriel</div>
+                    <div class="row"><img src="./images/iconmonstr-telegram-2.svg" class="social_icon">/gb_Calheiros</div>
+                    <div class="row"><img src="./images/xmpp.svg" class="social_icon">gabrielcalheiros@5222.de</div>
+                    <div class="row"><img src="./images/whatsapp.svg" class="social_icon">+55 (44) 9.8431-3510</div>
+                    <div class="row"><img src="./images/facebook.svg" class="social_icon">/Gabriel.Braga.Calheiros</div>
+                </div>
+
+                <hr>
+                <h3 id="languages">Languages</h3>
+                <div class="bloco">
+                    <div class="row"><img src="./images/br.svg" class="social_icon" style="filter: grayscale(1);"><em id="portuguese"></em></div>
+                    <div class="row"><img src="./images/um.svg" class="social_icon" style="filter: grayscale(1);"><em id="english"></em></div>
+                    <div class="row"><img src="./images/es.svg" class="social_icon" style="filter: grayscale(1);"><em id="spanish"></em></div>
+
+                </div>
+            
+
+                <hr>
+                <h3 id="skills">Skills</h3>
+    
+                <div class="bloco">                    
+                    <div class="row"><img src="./images/python.svg" class="social_icon">Python</div>
+                    <div class="row"><img src="./images/javascript.svg" class="social_icon" style="filter: invert(1);">JavaScript</div>
+                    <div class="row"><img src="./images/php.svg" class="social_icon" style="filter: invert(1);">PHP</div>
+                    <div class="row"><img src="./images/css.svg" class="social_icon">HTML</div>
+                    <div class="row"><img src="./images/css.svg" class="social_icon">CSS</div>
+                    <div class="row"><img src="./images/bootstrap-logo.svg" class="social_icon">Bootstrap</div>
+                    <div class="row"><img src="./images/laravel.svg" class="social_icon" style="filter: invert(1);">Laravel</div>
+                    <div class="row"><img src="./images/yii.svg" class="social_icon">Yii</div>
+                    <div class="row"><img src="./images/react.svg" class="social_icon">React</div>
+                    <div class="row"><img src="./images/bash.svg" class="social_icon" style="filter: invert(1);">Shell Script</div>
+                    <div class="row"><img src="./images/inkcapeLogo.svg" class="social_icon" style="filter: invert(1);">InkScape</div>
+                    <div class="row"><img src="./images/gimp.svg" class="social_icon">GIMP</div>
+                </div>
+
+                <hr>
+                <h3 id="education">Education</h3>
+
+                <div class="bloco">
+                    <div class="row"><img src="./images/faetec.svg" class="social_icon"><em id="faetec"></em></div>
+                    <div class="row" ><img src="./images/uop.svg" class="social_icon"><em id="UoP"></em></div>
+                </div>
+
+                <div style="height: max-content;"></div>
+
+
+            </div>
+
+            <!-- Content -->
+            <div class="content">
+
+                <h1>Gabriel Braga Calheiros</h1>
+
+                <h3 id="experience" style="margin-top: -20px;"></h3>
+                <hr>
+                <p id="profile" class="text"></p>
+
+                <h2 id="IrmaraTitle" ></h2>
+                <em id="IrmaraSubtitle" class="subtitle"></em>
+                <p id="IrmaraText" class="text"></p>
+
+                <h2 id="airTalentTitle"></h2>
+                <em id="airTalentSubtitle" class="subtitle"></em>
+                <p id="airTalentText" class="text"></p>
+
+                <h2 id="SpeedNowTitle"></h2>
+                <em id="SpeedNowSubtitle" class="subtitle"></em>
+                <p id="SpeedNowText" class="text"></p>
+
+                <h2 id="paragonSoftwareTitle"></h2>
+                <em id="paragonSoftwareSubtitle" class="subtitle"></em>
+                <p id="paragonSoftwareText" class="text"></p>
+
+                <h2 id="transpanoramaTitle"></h2>
+                <em id="transpanoramaSubtitle" class="subtitle"></em>
+                <p id="transpanoramaText" class="text"></p>
+
+                <ul><h3 id="linksTitle"></h3>
+                    <a href="https://gabrielcalheiros.github.io/PersonalLinks/Projects.html"><li id="projects"></li></a>
+                    <a href="https://gabrielcalheiros.github.io/PersonalLinks/"><li id="links"></li></a>
+                    <a href="" onclick="window.print()"><li id="print"></li></a>
+                </ul>
+            
+            </div>
+
+        </div>
+
+        <!-- Importing json with language texts -->
+        <script src="./curriculumText.js"></script>
+    
+        <!-- Script to change language -->
+        <script>
+            function changeLanguage(language) {
+                console.log("Language changed to " + language);
+                let languageTexts = {};
+
+                // Determine which language texts to use
+                if (language === "pt") {
+                    languageTexts = pt;
+                } else if (language === "en") {
+                    languageTexts = en;
+                } else {
+                    // Default to English if language is not supported
+                    languageTexts = en;
+                }
+
+                // Get all elements with IDs matching the languageTexts keys
+                let elements = document.querySelectorAll('[id]');
+
+                // Loop through each element
+                elements.forEach(element => {
+                    // Get the ID of the element
+                    let id = element.id;
+
+                    // Check if the ID exists as a key in the languageTexts object
+                    if (id in languageTexts) {
+                        // Update the text content of the element with the corresponding value from languageTexts
+                        element.textContent = languageTexts[id];
+                    }
+                });
+            }
+
+            changeLanguage("en");
+
+        </script>
+    </body>
+    
+
+</html>
