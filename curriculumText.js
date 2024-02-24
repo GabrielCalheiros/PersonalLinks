@@ -61,5 +61,37 @@ let pt = {
     links: "Links Sociais",
     linksTitle: "Links Adicionais",
     print: "Imprimir este documento"
-    }
+    };
 
+let es = {
+    profile: "Entusiasta de la tecnología con habilidades basadas en desarrollo web, habiendo trabajado con Laravel, Yii, Nest (y otros frameworks de Node), e incluso backends hechos en Python (Flask). También tengo confianza en el uso de Bootstrap, Tailwind como frameworks frontend. Tengo conocimientos en diseño gráfico usando herramientas de código abierto como GIMP e Inkscape. Estoy familiarizado con sistemas GNU/Linux. Actualmente, estoy estudiando Ciencias de la Computación en UiP y tengo un título técnico en Tecnología de la Información de FAETERJ. Soy apasionado por los proyectos personales y ya he desarrollado una amplia variedad de ellos. El portugués es mi lengua materna, pero además, hablo inglés con fluidez y actualmente estoy estudiando español.",
+    experience: "Experiencias en el Campo",
+    IrmaraTitle: "Irmara y Maringá Licenças (04/2018 - 07/2021)",
+    IrmaraSubtitle: "Como Diseñador Gráfico y Asistente Administrativo",
+    IrmaraText: "Antes de ingresar al campo de la tecnología, trabajé en dos empresas como Asistente Administrativo, donde tuve la oportunidad de realizar funciones de gestión y mantenimiento digital, así como producir materiales gráficos como folletos, tarjetas de visita y otros. Esta experiencia me proporcionó una base sólida en el mundo corporativo y burocrático, además de enseñarme conceptos de gestión ampliamente necesarios para el área de desarrollo.",
+    social: "Social",
+    skills: "Habilidades",
+    education: "Educación",
+    faetec: "Tecnología de la Información - Faeterj, (2014-2016)",
+    UoP: "Ciencias de la Computación - UiP, (2023-Presente)",
+    languages: "Idiomas",
+    portuguese: "Portugués Nativo",
+    english: "Inglés Fluido",
+    spanish: "Español en Estudio",
+    airTalentTitle: "Talento Aéreo (07/2021 - 12/2022)",
+    airTalentText: "Completé una pasantía breve en Air Talent, donde tuve la oportunidad de aprender los fundamentos de la gestión de plataformas web. Durante este período, tuve contacto con tecnologías utilizadas internamente en la empresa, como React, WordPress, entre otras.",
+    SpeedNowTitle: "SpeedNow (01/2022 - 09/2022)",
+    SpeedNowSubtitle: "Analista de Soporte Computacional",
+    SpeedNowText: "En SpeedNow, trabajé como Analista de Sistemas, donde pude mejorar mis habilidades en el desarrollo de plataformas EAD, utilizando tecnologías como Laravel y CodeIgniter3. Además, participé en la edición de la interfaz gráfica estándar de nuestra aplicación para diferentes usuarios. Fui responsable de participar en reuniones con clientes, con el objetivo de ajustar y optimizar el proceso de desarrollo según las necesidades de cada uno. También trabajé con bases de datos y APIs locales, así como la comunicación entre ellos y los clientes. Esta experiencia fue fundamental para el desarrollo de mi carrera, ya que pude adquirir conocimientos técnicos y prácticos, además de mejorar mis habilidades de comunicación y trabajo en equipo.",
+    paragonSoftwareTitle: "Solutions de Software Paragon (10/2022 - 02/2023)",
+    paragonSoftwareSubtitle: "Diseñador Gráfico y Desarrollador Front-end",
+    paragonSoftwareText: "En Paragon Software Solutions, fui responsable de liderar el desarrollo de la identidad visual de la empresa, incluido el diseño del logotipo en formato vectorial y la creación del sitio web. Además, trabajé como desarrollador front-end, utilizando tecnologías como HTML, CSS y JavaScript para crear interfaces receptivas y accesibles. Esta experiencia me permitió mejorar mis habilidades en diseño gráfico y desarrollo web, además de desarrollar una visión más amplia de la intersección entre estas áreas.",
+    transpanoramaTitle: "Transpanorama (04/2023 - Presente)",
+    transpanoramaSubtitle: "Desarrollador y Diseñador",
+    transpanoramaText: "Durante mi tiempo en Transpanorama, mejoré significativamente mi conjunto de habilidades al participar activamente en diversos proyectos y asumir roles de liderazgo. Lideré con éxito el desarrollo de múltiples iniciativas, que incluyeron la construcción de aplicaciones Laravel CRUD con frontends Bootstrap, la implementación de automatizaciones basadas en Python y el desarrollo de APIs para integrar perfectamente la base de datos de la empresa con sistemas de terceros. Además, contribuí a la creación de soluciones de inteligencia empresarial, centrándome en la visualización de datos para proporcionar información valiosa. Además, desempeñé un papel fundamental en la expansión de sistemas existentes implementados en varios idiomas y frameworks, como PHP, Vue y React, contribuyendo así al crecimiento y la eficiencia de la empresa.",
+    projects: "Proyectos Personales",
+    links: "Enlaces Sociales",
+    linksTitle: "Enlaces Adicionales",
+    print: "Imprimir este documento"
+    };
+    
