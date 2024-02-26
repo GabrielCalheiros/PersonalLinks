@@ -2,6 +2,7 @@
 <html>
 
     <head>
+
         <!-- Set character encoding for the document -->
         <meta charset="utf-8">
         <!-- Viewport for responsive web design -->
@@ -18,8 +19,8 @@
 
     </head>
 
-
     <body>
+
         <!-- Language Selector -->
         <select id="languageSelector" onchange="changeLanguage(this.value)">
             <option value="en">English</option>
@@ -28,24 +29,25 @@
         </select>
     
         <div id="pageContent">
-
             
             <!-- Barra Lateral -->
             <div class="barra_lateral">
-
-                <hr>
+                
                 <img src="./images/pic.jpg" class="profile_image">
                 <hr>
                 <h3 id="social">Social</h3>
 
                 <div class="bloco">
-                    <div class="row"><img src="./images/github.svg" class="social_icon">/GabrielCalheiros</div>
-                    <div class="row"><img src="./images/linkedin.svg" class="social_icon">/gabriel-braga-calheiros</div>
-                    <div class="row"><img src="./images/instagram.svg" class="social_icon">/calheiros.gabriel</div>
-                    <div class="row"><img src="./images/iconmonstr-telegram-2.svg" class="social_icon">/gb_Calheiros</div>
-                    <div class="row"><img src="./images/xmpp.svg" class="social_icon">gabrielcalheiros@5222.de</div>
-                    <div class="row"><img src="./images/whatsapp.svg" class="social_icon">+55 (44) 9.8431-3510</div>
-                    <div class="row"><img src="./images/facebook.svg" class="social_icon">/Gabriel.Braga.Calheiros</div>
+                    <a href="ttps://github.com/GabrielCalheiros"><div class="row"><img src="./images/github.svg" class="social_icon">/GabrielCalheiros</div></a>
+                    <a href="https://www.linkedin.com/in/gabriel-braga-calheiros-029458144/"><div class="row"><img src="./images/linkedin.svg" class="social_icon">/gabriel-braga-calheiros</div></a>
+                    <a href="https://www.instagram.com/calheiros.gabriel/"><div class="row"><img src="./images/instagram.svg" class="social_icon">/calheiros.gabriel</div></a>
+                    <a href="https://t.me/gb_Calheiros"><div class="row"><img src="./images/iconmonstr-telegram-2.svg" class="social_icon">/gb_Calheiros</div></a>
+                    <a href="mailto:gabrielcalheiros@5222.de"><div class="row"><img src="./images/xmpp.svg" class="social_icon">gabrielcalheiros@5222.de</div></a>
+                    <a href="mailto:gabrielbcm.1998@gmail.com"><div class="row"><img src="./images/gmail.svg" class="social_icon" alt="">gabrielbcm.1998@gmail.com</div></a>
+                    <a href="https://wa.me/5544984313510?text=Hello%21"><div class="row"><img src="./images/whatsapp.svg" class="social_icon">+55 (44) 9.8431-3510</div></a>
+                    <a href="https://www.facebook.com/Gabriel.Braga.Calheiros/"><div class="row"><img src="./images/facebook.svg" class="social_icon">/Gabriel.Braga.Calheiros</div></a>
+                    <!-- <a href="tel:+5544984313510"></a>
+                    <a href=""></a> -->
                 </div>
 
                 <hr>
@@ -86,7 +88,6 @@
 
                 <div style="height: max-content;"></div>
 
-
             </div>
 
             <!-- Content -->
@@ -98,25 +99,25 @@
                 <hr>
                 <p id="profile" class="text"></p>
 
-                <h2 id="IrmaraTitle" ></h2>
-                <em id="IrmaraSubtitle" class="subtitle"></em>
-                <p id="IrmaraText" class="text"></p>
-
-                <h2 id="airTalentTitle"></h2>
-                <em id="airTalentSubtitle" class="subtitle"></em>
-                <p id="airTalentText" class="text"></p>
-
-                <h2 id="SpeedNowTitle"></h2>
-                <em id="SpeedNowSubtitle" class="subtitle"></em>
-                <p id="SpeedNowText" class="text"></p>
+                <h2 id="transpanoramaTitle"></h2>
+                <em id="transpanoramaSubtitle" class="subtitle"></em>
+                <p id="transpanoramaText" class="text"></p>
 
                 <h2 id="paragonSoftwareTitle"></h2>
                 <em id="paragonSoftwareSubtitle" class="subtitle"></em>
                 <p id="paragonSoftwareText" class="text"></p>
 
-                <h2 id="transpanoramaTitle"></h2>
-                <em id="transpanoramaSubtitle" class="subtitle"></em>
-                <p id="transpanoramaText" class="text"></p>
+                <h2 id="SpeedNowTitle"></h2>
+                <em id="SpeedNowSubtitle" class="subtitle"></em>
+                <p id="SpeedNowText" class="text"></p>
+
+                <h2 id="airTalentTitle"></h2>
+                <em id="airTalentSubtitle" class="subtitle"></em>
+                <p id="airTalentText" class="text"></p>
+
+                <h2 id="IrmaraTitle" ></h2>
+                <em id="IrmaraSubtitle" class="subtitle"></em>
+                <p id="IrmaraText" class="text"></p>
 
                 <ul class="noPrint"><h3 id="linksTitle"></h3>
                     <a href="https://gabrielcalheiros.github.io/PersonalLinks/Projects.html"><li id="projects"></li></a>
@@ -142,6 +143,8 @@
                     languageTexts = pt;
                 } else if (language === "en") {
                     languageTexts = en;
+                } else if (language === "es") {
+                    languageTexts = es;
                 } else {
                     // Default to English if language is not supported
                     languageTexts = en;
@@ -166,6 +169,7 @@
             changeLanguage("en");
 
         </script>
+
     </body>
     
 
