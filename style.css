@@ -1,98 +1,151 @@
-.icon{
-
-    width: 7vw;
-    filter: invert(100%);
-    transition: 0.3s;
-    margin: 1vw;
-    
+/* Layout */
+body {
+    margin: 0;
+    background: #000;
+    color: #fff;
+    font-family: Georgia, "Times New Roman", serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
 }
 
-body{
-
-    background-color: black;
-    color: white;
+/* Container */
+.container {
+    width: 100%;
+    max-width: 500px;
+    padding: 40px 20px;
     text-align: center;
-    width: 60%;
-    margin: auto;
-
 }
 
-.paragon{
-
-    color: white;
-    border: 0ch;
-    font-weight: bold;
-    font-size: larger;
-    transition: 0.3s;
-    height: 2vh;
-    max-width: 30vw;
-    display: inline-block;
-
-}
-
-.paragon:hover{
-
-    transform: scale(1.1);
-
-}
-
-.icon:hover{
-
-    transform: scale(1.1);
-
-}
-
-h1{
-
-    margin-top: 5vh;
-
-}
-
-a{
-
-    color: white;
-    text-decoration: none;
-
-}
-
-.other {
-
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    border: solid;
-    height: 5%;
+/* Profile Image */
+.main-pic {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #444;
     margin-bottom: 20px;
-    width: 40%;
-    font-weight: bolder;
-    transition: 0.3s;
-
+    transition: all 0.3s ease;
 }
 
-.other:hover{
-
-    transform: scale(1.1);
-
+.main-pic:hover {
+    transform: scale(1.05);
+    border-color: #fff;
 }
 
-@media screen and (max-width: 1150px) {
+/* Name */
+h1 {
+    font-weight: 400;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-size: 1.6rem; /* responsive instead of default */
+}
 
-    body{
+/* Menu */
+.menu {
+    width: 100%;
+}
 
-        width: 100%;
+.experience-list {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding-left: 20px;
+}
 
-    }
+.experience-list li {
+  margin-bottom: 5px;
+  text-align: left;
+}
 
-    .icon{
+/* Improve readability */
+.content {
+  width: 65%;
+  margin-left: 35%;
+}
 
-    width: 20vw;
+/* Remove paragraph indent (no longer needed) */
+.text {
+  text-indent: 0;
+  text-align: justify;
+}
 
-    }
+/* Each row */
+.menu-item {
+    display: flex;
+    align-items: center;
+    padding: 14px 12px;
+    margin: 2px 0;
+    border-bottom: 1px solid #222;
+    text-decoration: none;
+    color: #ddd;
+    transition: all 0.25s ease;
+    padding: 16px 14px; /* bigger touch area */
+}
+
+/* Icon */
+.menu-item img {
+    width: 25px;
+    margin-right: 12px;
+    filter: invert(1) grayscale(100%);
+    opacity: 0.7;
+}
+
+/* Text */
+.menu-item span {
+    flex: 1;
+    text-align: left;
+}
+
+/* Arrow (book feel) */
+.menu-item::after {
+    content: "›";
+    color: #555;
+    transition: all 0.2s ease;
+}
+
+/* Hover */
+.menu-item:hover {
+    background: #111;
+    color: #fff;
+}
+
+.menu-item:hover img {
+    opacity: 1;
+}
+
+.menu-item:hover::after {
+    transform: translateX(5px);
+    color: #fff;
+}
+
+/* MOBILE VERSION */
+
+@media (max-width: 480px) {
     
-    .other {
-
-    font-size: xx-large;
-    width: 50%;
-
+    .container {
+        padding: 30px 15px;
     }
 
+    h1 {
+        font-size: 1.4rem;
+    }
+
+    .main-pic {
+        width: 120px;
+        height: 120px;
+    }
+
+    .menu-item {
+        padding: 14px 10px;
+    }
+
+    .menu-item img {
+        width: 22px;
+        margin-right: 10px;
+    }
+
+    .menu-item::after {
+        content: "";
+    }
 }
