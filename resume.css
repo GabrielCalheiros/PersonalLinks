@@ -4,6 +4,12 @@
     margin-right: 5px;
 }
 
+.bloco > strong {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
 h3 {
     margin-top: 10px;
 }
@@ -64,13 +70,14 @@ body {
         margin-top: 0px;
     }
 
-    h1 {
-        font-size: large;
-    }
-
     .noPrint {
         display: none;
     }
+
+    h2 {
+        font-size: 1.10em; /* slightly smaller */
+    }
+
 }
 
 .row {
@@ -78,7 +85,6 @@ body {
     display: flex;
     margin-top: 5px;
 }
-
 
 .text {
     /* text-indent: 5%; */
