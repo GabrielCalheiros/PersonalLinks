@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="88.25"
+   height="28"
+   role="img"
+   aria-label="HTML5"
+   version="1.1"
+   id="svg2"
+   sodipodi:docname="badge_xml.svg"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="namedview2"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="3.5555653"
+     inkscape:cx="35.437403"
+     inkscape:cy="35.015529"
+     inkscape:window-width="1920"
+     inkscape:window-height="998"
+     inkscape:window-x="1366"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g2" />
+  <title
+     id="title1">HTML5</title>
+  <g
+     shape-rendering="crispEdges"
+     id="g1">
+    <rect
+       width="88.25"
+       height="28"
+       fill="#e34f26"
+       id="rect1" />
+  </g>
+  <g
+     fill="#fff"
+     text-anchor="middle"
+     font-family="Verdana,Geneva,DejaVu Sans,sans-serif"
+     text-rendering="geometricPrecision"
+     font-size="100"
+     id="g2">
+    <text
+       transform="scale(0.1)"
+       x="541.25"
+       y="175"
+       textLength="442.5"
+       fill="#ffffff"
+       font-weight="bold"
+       id="text1"
+       lengthAdjust="spacing"
+       inkscape:label="text1">XML</text>
+    <g
+       id="g1-3"
+       transform="matrix(0.034801,0,0,0.034801,4.4342609,5.4269885)"
+       style="fill:#ffffff">
+      <g
+         id="Page-1"
+         stroke="none"
+         stroke-width="1"
+         fill="none"
+         fill-rule="evenodd"
+         style="fill:#ffffff">
+        <g
+           id="icon"
+           fill="#000000"
+           transform="translate(62.077867,42.666667)"
+           style="fill:#ffffff">
+          <path
+             d="M 257.92213,0 H 23.255467 V 234.66667 H 65.922133 V 192 169.6 42.666667 H 240.21547 l 81.70666,81.706663 V 169.6 192 234.66667 h 42.66667 v -128 z M 95.936,277.568 65.728,319.33867 35.904,277.568 H 2.3466667 L 47.381333,339.94667 0,405.696 H 34.069333 L 64.298667,362.92267 94.677333,405.696 H 129.472 L 82.389333,340.672 128.93867,277.568 Z m 135.1488,69.03893 c -2.176,6.67734 -4.672,15.31734 -7.50933,25.856 -2.816,-10.66666 -5.312,-19.28533 -7.40267,-25.856 l -22.144,-69.26933 h -42.77333 v 128.128 h 26.66666 V 301.74293 c 2.944,11.05067 5.52534,19.904 7.68,26.60267 l 24.96,77.12 h 24.768 l 25.68534,-79.296 c 2.64533,-8.08533 5.01333,-16.21333 7.04,-24.42667 V 405.4656 h 27.776 v -128.128 h -42.304 z M 324.95147,277.568 v 128.128 h 83.904 v -22.61333 h -55.04 V 277.568 Z"
+             id="XLS"
+             style="fill:#ffffff" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
