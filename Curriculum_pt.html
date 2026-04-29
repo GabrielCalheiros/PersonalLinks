@@ -2,12 +2,17 @@
 <html>
 
 <head>
-
+    <!-- Set character encoding for the document -->
     <meta charset="utf-8">
+    <!-- Viewport for responsive web design -->
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <title>Gabriel Calheiros - Currículo</title>
-    <meta name="description" content="Gabriel Calheiros - Currículo">
+    <!-- Title of the document -->
+    <title>Gabriel Calheiros - Curriculum Vitae</title>
+    <!-- Meta Description -->
+    <meta name="description" content="Gabriel Calheiros - Curriculum Vitae">
+    <!-- Standard favicon -->
     <link rel="shortcut icon" type="image/jpg" href="./images/favicon.svg" />
+    <!-- CSS -->
     <link rel="stylesheet" href="./resume.css">
 
 </head>
@@ -16,12 +21,17 @@
 
     <div id="pageContent">
 
+
+
         <!-- Barra Lateral -->
         <div class="barra_lateral">
 
             <img src="./images/pic.jpg" class="profile_image">
+
+            <h1 class="mobile_title">Gabriel Braga Calheiros</h1>
+
             <hr>
-            <h3 id="social">Redes</h3>
+            <h3 id="social">Social</h3>
 
             <div class="bloco">
                 <a href="https://github.com/GabrielCalheiros">
@@ -32,74 +42,88 @@
                 </a>
 
                 <a href="mailto:gabrielbcm.1998@gmail.com">
-                    <div class="row"><img src="./images/gmail.svg" class="social_icon">gabrielbcm.1998@gmail.com</div>
+                    <div class="row"><img src="./images/gmail.svg" class="social_icon" alt="">gabrielbcm.1998@gmail.com
+                    </div>
                 </a>
 
                 <a href="https://t.me/gb_Calheiros">
-                    <div class="row"><img src="./images/iconmonstr-telegram-2.svg" class="social_icon">/gb_Calheiros</div>
+                    <div class="row"><img src="./images/iconmonstr-telegram-2.svg" class="social_icon">/gb_Calheiros
+                    </div>
                 </a>
+
+                <!-- <a href="mailto:gabrielcalheiros@5222.de">
+                    <div class="row"><img src="./images/xmpp.svg" class="social_icon">gabrielcalheiros@5222.de</div>
+                </a> -->
+
 
                 <a href="https://wa.me/5544999716426">
                     <div class="row"><img src="./images/whatsapp.svg" class="social_icon">+55 (44) 9.9971-6426</div>
                 </a>
+
+            </div>
+
+            <hr class="desktop_hr">
+            <h3 id="languages">Línguas</h3>
+            <div class="bloco">
+                <div class="row"><img src="./images/br.svg" class="social_icon"><em id="portuguese">Português
+                        Nativo</em></div>
+                <div class="row"><img src="./images/um.svg" class="social_icon"><em id="english">Inglês Fluente</em>
+                </div>
             </div>
 
             <hr>
-            <h3 id="languages">Idiomas</h3>
-            <div class="bloco">
-                <div class="row"><img src="./images/br.svg" class="social_icon"><em>Português nativo</em></div>
-                <div class="row"><img src="./images/um.svg" class="social_icon"><em>Inglês fluente</em></div>
-            </div>
 
-            <hr>
-
-            <h3 id="skills">Habilidades</h3>
+            <h3 id="skills">Skills</h3>
 
             <div class="bloco">
 
-                <strong>Desenvolvimento Backend</strong>
+                <strong>Backend Development</strong>
                 <div class="row"><img src="./images/python.svg" class="social_icon">Python (Flask, SQLAlchemy ORM)</div>
-                <div class="row"><img src="./images/php.svg" class="social_icon" style="filter: invert(1);">PHP (Laravel, Yii - Eloquent ORM)</div>
-                <div class="row"><img src="./images/javascript.svg" class="social_icon" style="filter: invert(1);">Node.js (NestJS)</div>
-                <div class="row"><img src="./images/authentication.svg" class="social_icon">Autenticação (Flask-Login, JWT, OAuth)</div>
-                <div class="row"><img src="./images/api.svg" class="social_icon">APIs REST (paginação, filtros, integrações)</div>
+                <div class="row"><img src="./images/php.svg" class="social_icon">PHP (Laravel, Yii - Eloquent ORM)</div>
+                <div class="row"><img src="./images/javascript.svg" class="social_icon">Node.js (NestJS)</div>
+                <div class="row"><img src="./images/authentication.svg" class="social_icon" alt="">Authentication
+                    (Flask-Login, JWT, OAuth)</div>
+                <div class="row"><img src="./images/api.svg" class="social_icon" alt="">REST APIs (pagination,
+                    filtering, integrations)</div>
 
-                <strong>Desenvolvimento Frontend</strong>
+                <strong>Frontend Development</strong>
                 <div class="row"><img src="./images/react.svg" class="social_icon">React</div>
-                <div class="row"><img src="./images/css.svg" class="social_icon">HTML e CSS</div>
+                <div class="row"><img src="./images/css.svg" class="social_icon">HTML & CSS</div>
                 <div class="row"><img src="./images/bootstrap-logo.svg" class="social_icon">Bootstrap / Tailwind</div>
 
-                <strong>Ferramentas & Fluxo de Trabalho</strong>
-                <div class="row"><img src="./images/bash.svg" class="social_icon" style="filter: invert(1);">Linux & Shell Script</div>
+                <strong>Tools & Workflow</strong>
+                <div class="row"><img src="./images/bash.svg" class="social_icon">Linux & Shell Scripting</div>
                 <div class="row"><img src="./images/github.svg" class="social_icon">Git & GitHub</div>
                 <div class="row"><img src="./images/trello.svg" class="social_icon">Trello / Jira</div>
-                <div class="row"><img src="./images/code.svg" class="social_icon">Linters e ferramentas de qualidade de código</div>
+                <div class="row"><img src="./images/code.svg" class="social_icon">Linters & Code Quality Tools</div>
                 <div class="row"><img src="./images/gimp.svg" class="social_icon">GIMP</div>
-                <div class="row"><img src="./images/inkcapeLogo.svg" class="social_icon" style="filter: invert(1);">Inkscape</div>
+                <div class="row"><img src="./images/inkcapeLogo.svg" class="social_icon">Inkscape</div>
 
             </div>
-            <hr>
-            <h3 id="education">Formação</h3>
+            <hr class="desktop_hr">
+            <h3 id="education">Education</h3>
 
             <div class="bloco">
-                <div class="row"><img src="./images/faetec.svg" class="social_icon"><em>Tecnologia da Informação - Faeterj (2014-2016)</em></div>
+                <div class="row"><img src="./images/faetec.svg" class="social_icon"><em id="faetec">Information
+                        Technology - Faeterj, (2014-2016)</em></div>
             </div>
 
-            <div style="height: max-content;margin-bottom:100px;"></div>
+            <div class="desktop_spacing"></div>
 
         </div>
 
-        <!-- Conteúdo -->
+        <!-- Content -->
         <div class="content">
 
-            <h1>Gabriel Braga Calheiros</h1>
+            <h1 class="desktop_title">Gabriel Braga Calheiros</h1>
 
             <h3 id="experience" style="margin-top: -20px;">Experiência Profissional</h3>
             <hr>
 
-            <p class="text">
-                Desenvolvedor full-stack com mais de 4 anos de experiência na construção de aplicações web utilizando Laravel, Python e React.
-                Experiência em integrações de APIs, automação e soluções de business intelligence.
+            <p id="profile" class="text">
+                Desenvolvedor full-stack com mais de 4 anos de experiência no desenvolvimento de aplicações web
+                utilizando Laravel, Python e React.
+                Experiência em integrações de APIs, automação de processos e soluções de business intelligence.
                 Forte atuação em ambientes Linux e ferramentas open-source.
             </p>
 
@@ -107,23 +131,30 @@
             <em class="subtitle">Desenvolvedor Full-Stack</em>
 
             <ul class="experience-list">
-                <li>Desenvolvimento e manutenção de sistemas internos utilizando <strong>Laravel (PHP)</strong> e interfaces modernas</li>
-                <li>Criação de <strong>scripts de automação em Python</strong> para otimização de processos operacionais</li>
-                <li>Desenvolvimento e integração de <strong>APIs</strong> com sistemas internos e serviços externos</li>
-                <li>Implementação de <strong>painéis e relatórios</strong> para análise de dados e suporte à tomada de decisão</li>
+                <li>Desenvolvimento e manutenção de sistemas internos utilizando <strong>Laravel (PHP)</strong> e
+                    interfaces modernas</li>
+                <li>Criação de <strong>scripts de automação em Python</strong> para otimização de processos operacionais
+                </li>
+                <li>Desenvolvimento e integração de <strong>APIs</strong> conectando sistemas internos a serviços
+                    externos</li>
+                <li>Construção de <strong>dashboards e relatórios</strong> para apoio à análise de dados e tomada de
+                    decisão</li>
                 <li>Atuação com <strong>PHP, React e JavaScript</strong> na evolução contínua dos sistemas</li>
-                <li>Colaboração com diferentes áreas da empresa no desenvolvimento de soluções tecnológicas</li>
+                <li>Colaboração com diferentes áreas da empresa para entrega de soluções técnicas eficientes</li>
             </ul>
 
             <h2>Transpanorama (04/2023 - 03/2025)</h2>
             <em class="subtitle">Desenvolvedor e Designer</em>
 
             <ul class="experience-list">
-                <li>Desenvolvimento e manutenção de sistemas internos com <strong>Laravel (PHP)</strong> e interfaces em Bootstrap</li>
-                <li>Criação de <strong>scripts de automação em Python</strong>, reduzindo tarefas operacionais manuais</li>
-                <li>Desenvolvimento de <strong>APIs</strong> integrando bancos de dados internos com sistemas externos</li>
+                <li>Desenvolvimento e manutenção de sistemas internos com <strong>Laravel (PHP)</strong> e interfaces em
+                    Bootstrap</li>
+                <li>Criação de <strong>scripts de automação em Python</strong>, reduzindo tarefas operacionais manuais
+                </li>
+                <li>Desenvolvimento de <strong>APIs</strong> integrando bancos de dados internos com sistemas externos
+                </li>
                 <li>Criação de <strong>dashboards de business intelligence</strong> para apoio à tomada de decisão</li>
-                <li>Manutenção e evolução de sistemas com <strong>PHP, Vue e React</strong></li>
+                <li>Manutenção e evolução de sistemas utilizando <strong>PHP, Vue e React</strong></li>
                 <li>Participação e liderança em múltiplos projetos de desenvolvimento</li>
             </ul>
 
@@ -131,21 +162,24 @@
             <em class="subtitle">Designer Gráfico e Desenvolvedor Front-end</em>
 
             <ul class="experience-list">
-                <li>Criação da <strong>identidade visual</strong> da empresa (logo e branding)</li>
-                <li>Desenvolvimento de site com <strong>HTML, CSS e JavaScript</strong></li>
+                <li>Criação da <strong>identidade visual</strong> da empresa, incluindo logotipo e materiais de marca
+                </li>
+                <li>Desenvolvimento de website utilizando <strong>HTML, CSS e JavaScript</strong></li>
                 <li>Construção de <strong>interfaces responsivas e acessíveis</strong></li>
-                <li>Integração entre design e desenvolvimento para melhorar a experiência do usuário</li>
+                <li>Alinhamento entre design e desenvolvimento para melhoria da experiência do usuário</li>
             </ul>
 
             <h2>SpeedNow (01/2022 - 09/2022)</h2>
-            <em class="subtitle">Analista de Suporte Computacional e Desenvolvedor Front-end</em>
+            <em class="subtitle">Analista de Suporte Computacional</em>
 
             <ul class="experience-list">
-                <li>Desenvolvimento e manutenção de plataformas <strong>EAD</strong> com Laravel e CodeIgniter 3</li>
+                <li>Desenvolvimento e manutenção de <strong>plataformas EAD</strong> utilizando Laravel e CodeIgniter 3
+                </li>
                 <li>Customização de <strong>interfaces de usuário</strong> conforme necessidades dos clientes</li>
-                <li>Participação em <strong>reuniões com clientes</strong> para levantamento de requisitos</li>
+                <li>Participação em <strong>reuniões com clientes</strong> para levantamento e refinamento de requisitos
+                </li>
                 <li>Trabalho com <strong>bancos de dados e APIs</strong> para integração de sistemas</li>
-                <li>Apoio na melhoria contínua dos sistemas</li>
+                <li>Suporte à melhoria contínua dos sistemas e processos de desenvolvimento</li>
             </ul>
 
             <h2>Air Talent (07/2021 - 12/2022)</h2>
@@ -158,25 +192,26 @@
             </ul>
 
             <h2>Irmara e Maringá Licenças (04/2018 - 07/2021)</h2>
-            <em class="subtitle">Assistente Administrativo & Designer Gráfico</em>
+            <em class="subtitle">Assistente Administrativo e Designer Gráfico</em>
 
             <ul class="experience-list">
-                <li>Produção de <strong>materiais gráficos</strong> (flyers, cartões, peças de marketing)</li>
-                <li>Atividades de <strong>gestão e manutenção digital</strong></li>
-                <li>Apoio a rotinas administrativas e operacionais</li>
+                <li>Produção de <strong>materiais gráficos</strong> (flyers, cartões de visita e peças de marketing)
+                </li>
+                <li>Execução de tarefas de <strong>gestão e manutenção digital</strong></li>
+                <li>Apoio aos processos administrativos e operacionais</li>
                 <li>Desenvolvimento de habilidades organizacionais e de comunicação</li>
             </ul>
 
             <ul class="noPrint">
-                <h3>Links adicionais</h3>
+                <h3 id="linksTitle">Aditional links</h3>
                 <a href="https://gabrielcalheiros.github.io/PersonalLinks/Projects.html">
-                    <li>Projetos pessoais</li>
+                    <li id="projects">Personal Projects</li>
                 </a>
                 <a href="https://gabrielcalheiros.github.io/PersonalLinks/">
-                    <li>Links sociais</li>
+                    <li id="links">Social Links</li>
                 </a>
                 <a href="" onclick="window.print()">
-                    <li>Imprimir este documento</li>
+                    <li id="print">Print this document</li>
                 </a>
             </ul>
 

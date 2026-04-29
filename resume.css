@@ -4,7 +4,7 @@
     margin-right: 5px;
 }
 
-.bloco > strong {
+.bloco>strong {
     display: block;
     margin-top: 15px;
     margin-bottom: 5px;
@@ -20,7 +20,8 @@ h2 {
 
 .subtitle {
     display: block;
-    margin-bottom: 25px; /* 35px is a bit too big for CV */
+    margin-bottom: 25px;
+    /* 35px is a bit too big for CV */
 }
 
 body {
@@ -45,6 +46,14 @@ body {
 .content {
     width: 70%;
     margin-left: 35%;
+}
+
+#mobile_title {
+    display: none;
+}
+
+#desktop_title {
+    display: block;
 }
 
 /* Make the selector invisible for printing */
@@ -75,7 +84,8 @@ body {
     }
 
     h2 {
-        font-size: 1.10em; /* slightly smaller */
+        font-size: 1.10em;
+        /* slightly smaller */
     }
 
 }
@@ -122,4 +132,94 @@ a:hover {
 
 .experience-list li {
     margin-bottom: 5px;
+}
+
+.desktop_spacing {
+    height: max-content;
+    margin-bottom: 100px;
+}
+
+
+/* 📱 Mobile layout */
+@media (max-width: 768px) {
+
+    .desktop_hr{
+        display: none;
+    }
+
+    .desktop_spacing {
+        margin-bottom: 60px;
+        height: max-content;
+    }
+
+    .mobile_title {
+        display: block;
+    }
+
+    .desktop_title {
+        display: none;
+    }
+
+    a {
+        color: white;
+    }
+
+    body {
+        width: 100%;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding: 10px;
+        background-color: black;
+        color: white;
+    }
+
+    .barra_lateral {
+        float: none;
+        width: 90%;
+        margin-right: 0;
+        color: white;
+    }
+
+    .content {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    #pageContent {
+        overflow: visible;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .social_icon {
+        width: 20px;
+        max-height: 20px;
+        filter: invert();
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    .subtitle {
+        margin-bottom: 15px;
+    }
+
+    .experience-list {
+        padding-left: 15px;
+    }
+
+    .profile_image {
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin: 0 auto 15px auto;
+        display: block;
+    }
 }
